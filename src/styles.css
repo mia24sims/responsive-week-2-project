@@ -11,6 +11,8 @@ body{
 .grid{
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
+grid-gap: 60px;
+padding: 10px 15px;
 }
 
 section{
@@ -95,7 +97,7 @@ footer p{
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  margin-right: 24px;
+ 
 }
 
 footer ul{
@@ -131,7 +133,9 @@ font-size: 35px;
         font-size: 15px;
           }
 
-
+.grod{
+  grid-gap: 30px;
+}
           footer{
             margin: 0 auto;
           }
@@ -140,7 +144,7 @@ font-size: 35px;
 font-size: 17px;
 line-height: 1.5;
 margin-bottom: 25px;
-margin-right: 24px;
+
 
         }
 footer a{

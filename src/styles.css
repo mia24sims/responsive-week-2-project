@@ -267,22 +267,20 @@ footer a:hover {
   }
 
 .christ-the-redeemer{
-  width: 320px;
+  width: 400px;
  
 }
-
-
 
   main h2 {
     font-size: 10px;
     text-align: center;
   }
   main h3 {
-    font-size: 18px;
+    font-size: 19px;
     text-align: center;
   }
   main p {
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -318,4 +316,25 @@ footer a:hover {
     font-size: 11px;
     line-height: 1.5;
   }
+}
+@media (max-width: 420px){
+
+  .christ-the-redeemer{
+    width: 270px;
+   
+  }
+  
+    main h2 {
+      font-size: 10px;
+      text-align: center;
+    }
+    main h3 {
+      font-size: 13px;
+      text-align: center;
+    }
+    main p {
+      font-size: 10px;
+      text-align: center;
+    }
+  
 }

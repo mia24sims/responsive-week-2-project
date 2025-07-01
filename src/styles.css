@@ -96,6 +96,10 @@ main {
   background-color: #b68d07;
 }
 
+.christ-the-redeemer{
+  width: 500px;
+}
+
 main img {
   border-radius: 7%;
   transition: all 150ms ease-in-out;
@@ -222,8 +226,9 @@ footer a:hover {
   color: white;
 }
 @media (max-width: 960px) {
+
   .container {
-    display: block;
+    max-width: 100%;
     margin: 0 auto;
   }
   header {
@@ -247,6 +252,7 @@ footer a:hover {
   }
   .grid-2-column {
     grid-template-columns: 1fr;
+  
   }
   .grid-3-column {
     grid-template-columns: 1fr;
@@ -259,6 +265,13 @@ footer a:hover {
     display: block;
     margin: 0 auto;
   }
+
+.christ-the-redeemer{
+  width: 320px;
+}
+
+
+
   main h2 {
     font-size: 10px;
     text-align: center;

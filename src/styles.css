@@ -8,6 +8,10 @@ body{
   margin: 0 auto;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .grid{
   display: grid;
 grid-gap: 60px;
@@ -22,12 +26,20 @@ grid-gap: 60px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.mb-{
+  margin-bottom: 20px;
+}
 
 section{
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;;
+  padding: 100px;
 }
+
+section.secondary{
+  background-color: #466708;
+}
+
 
 
 header{
@@ -84,7 +96,7 @@ border-radius: 7%;
   margin-bottom: 35px;
 }
 main{
-  background-color: #9e7a05;
+  background-color: #b68d07;
 }
 
 main img{
@@ -100,7 +112,7 @@ main h2{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 5px;
-  color: #071B4E;
+  color: white;
   opacity: 0.8;
   text-transform: uppercase;
   margin: 0;
@@ -121,7 +133,7 @@ main p{
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
-  color: #071B4E;
+  color: white;
   opacity: 0.9;
   margin-bottom: 25px;
 }
@@ -130,15 +142,42 @@ main p{
    border: 1px solid white;
   border-radius: 7%;
 padding: 5px 10px;
+letter-spacing: 3px;
+font-weight: 700;
 }
 main a{
   font-weight: 700;
   font-size: 18px;
   color: #071B4E;
   text-decoration: none;
- 
 }
 
+.card{
+  background-color: #354d05;
+  margin: 30px 0;  
+  border-radius: 7%;
+  padding: 5px 15px;
+}
+
+
+.img-responisve{
+  max-width: 100%;
+ margin-top: 20px;
+}
+
+.learn-more{
+  font-weight: 700;
+  text-transform: uppercase;
+  color:#071B4E;
+  letter-spacing: 3px;
+  background-color: white;
+border-radius: 7%;
+border: 1px solid white;
+display: block;
+margin: 0 auto;
+padding: 5px 10px;
+margin-bottom: 20px;
+}
 
 footer{
   color: white;
@@ -175,9 +214,18 @@ footer li{
 footer a{
   color: white;
   opacity:0.7 ;
+  text-decoration: none;
 }
 
+footer a:hover{
+  opacity: 100%;
+  text-decoration: underline;
+}
 
+.coded{
+  text-align: center;
+ color: white;
+}
 @media (max-width: 960px){
   header{
     padding: 40px 0;
@@ -201,6 +249,10 @@ font-size: 35px;
 .grid-2-column{
   grid-template-columns: 1fr;
 }
+.grid-3-column{
+  grid-template-columns: 1fr;
+}
+
 section{
   padding: 30px;
 }
@@ -225,6 +277,15 @@ main p{
   .Read{
 display: block;
 margin: 0 auto;
+}
+main h4{
+  font-size: larger;
+  text-align: center;
+}
+
+main h5{
+  font-size: larger;
+  text-align: center;
 }
  footer{
             margin: 0 auto;
